@@ -1,0 +1,33 @@
+{
+    "model_name": "heart_attack_gwo_scaled_xgb_20250616_120319",
+    "timestamp": "20250616_120319",
+    "selected_features": [
+        "age",
+        "hypertension",
+        "diabetes",
+        "cholesterol_level",
+        "obesity",
+        "family_history",
+        "smoking_status",
+        "physical_activity",
+        "sleep_hours",
+        "blood_pressure_diastolic",
+        "fasting_blood_sugar",
+        "cholesterol_hdl",
+        "EKG_results",
+        "previous_heart_disease"
+    ],
+    "feature_count": 14,
+    "performance_metrics": {
+        "test_accuracy": 0.7300685169397871,
+        "test_precision": 0.6560878393622621,
+        "test_recall": 0.6869291338582677,
+        "test_f1_score": 0.6711543639650729,
+        "features_selected": 14.0,
+        "feature_reduction_percentage": 36.36363636363637,
+        "test_auc_roc": 0.8136110254482911
+    },
+    "smote_applied": true,
+    "model_type": "GWO_Selected_Scaled_XGBoost_SMOTE_Pipeline",
+    "scaling_approach": "GWO_selected_features_only"
+}
